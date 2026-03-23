@@ -337,11 +337,9 @@ docker compose up -d
   <img src="https://i.postimg.cc/mZjTCkB4/LIBRENMS-DEVICE-CONFIG.png" alt="LibreNMS devices list showing all 3 Cisco devices discovered via SNMP with correct platform and OS" width="650"/>
 </p>
 
-<p align="center">
-  <img src="https://i.postimg.cc/Gm8RWjYL/LIBRENMS-DEVICES.png" alt="LibreNMS devices list showing all 3 Cisco devices discovered via SNMP with correct platform and OS" width="650"/>
+ <p align="center">
+  <img src="https://i.postimg.cc/Cxgy2VhS/LIBRENMS-DEVICES-2.png" alt="LibreNMS devices list showing all 3 Cisco devices discovered via SNMP with correct platform and OS" width="650"/>
 </p>
- 
- 
  
 ---
  
