@@ -93,7 +93,9 @@ sudo systemctl disable systemd-resolved
 ```
  
 <!-- SCREENSHOT: Static IP — terminal output of `ip addr show eth0` showing 192.168.20.11/24 -->
- 
+ <p align="center">
+  <img src="https://i.postimg.cc/bwT0jQhX/STATIC-IPI-PI5.png" alt="Raspberry Pi 5 static IP 192.168.20.11 set on eth0" width="650"/>
+</p>
  
  
  
@@ -147,7 +149,7 @@ no service config
 - **SSH** — Enabled SSH v2 with local authentication:
  
 ```
-ip domain-name homelab.local
+IP domain-name homelab.local
 username [removed] privilege 15 secret [removed]
 crypto key generate rsa modulus 1024
 ip ssh version 2
@@ -270,7 +272,9 @@ portainer/portainer-ce:latest
 ```
  
 <!-- SCREENSHOT: Portainer container list showing all running containers -->
- 
+ <p align="center">
+  <img src="https://i.postimg.cc/VkGSR4wn/CONTAINER-LIST.png" alt="Portainer container list showing all running Docker containers including LibreNMS stack and Pi-hole" width="650"/>
+</p>
  
  
  
@@ -303,11 +307,13 @@ docker run -d \
 --dns=8.8.8.8 \
 -v pihole_data:/etc/pihole \
 -v dnsmasq_data:/etc/dnsmasq.d \
-pihole/pihole:latest
+pihole/pihole: latest
 ```
  
 <!-- SCREENSHOT: Pi-hole dashboard showing active status, query count, and blocklist -->
- 
+ <p align="center">
+  <img src="https://i.postimg.cc/bwBJbJ0T/PIHOLE-DASH.png" alt="Pi-hole dashboard showing active status, DNS query count, and blocklist" width="650"/>
+</p>
  
  
  
@@ -327,7 +333,13 @@ docker compose up -d
 ```
  
 <!-- SCREENSHOT: LibreNMS devices list showing all 3 Cisco devices discovered with correct platform and OS -->
- 
+ <p align="center">
+  <img src="https://i.postimg.cc/mZjTCkB4/LIBRENMS-DEVICE-CONFIG.png" alt="LibreNMS devices list showing all 3 Cisco devices discovered via SNMP with correct platform and OS" width="650"/>
+</p>
+
+<p align="center">
+  <img src="https://i.postimg.cc/Gm8RWjYL/LIBRENMS-DEVICES.png" alt="LibreNMS devices list showing all 3 Cisco devices discovered via SNMP with correct platform and OS" width="650"/>
+</p>
  
  
  
