@@ -6,7 +6,7 @@
  
 ---
  
-> ⚠️ **Security Note:** All usernames, passwords, and enable secrets have been removed from this document. Never commit credentials to a public repository.
+> ⚠️ **Security Note:** All usernames, passwords, and enable secrets have been removed from this document.
  
 ---
  
