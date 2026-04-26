@@ -1,4 +1,4 @@
-# Cisco Collapsed Core Homelab — SNMP Monitoring (LibreNMS), DNS Filtering (Pi-hole) &amp; Containerized Services (Docker)
+# Cisco Collapsed Core Homelab — Phase 2:SNMP Monitoring (LibreNMS), DNS Filtering (Pi-hole) &amp; Containerized Services (Docker)
 # Patrick F — Homelab Build Guide
 ### Cisco Enterprise Lab · Expanded Build · 2026
 **Rack:** R01 · 12U Open-Frame
